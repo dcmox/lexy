@@ -37,6 +37,7 @@ describe('lexy test suite', () => {
         `
         const lexy = new testSuite.LexyScan(doc)
         const result = lexy.scan()
+
         assert.equal(result.errors.length, 4)
 
         assert.deepEqual(result.errors[2],  {
